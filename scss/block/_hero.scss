@@ -1,0 +1,112 @@
+.hero__container {
+    padding: 117px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-image: url(../../PICTURE/background-hero.jpg);
+
+}
+
+
+.hero__block {
+    padding-left: 85px;
+}
+
+.hero__container__title {
+    margin-bottom: 32px;
+    font-weight: 900;
+    max-width: 493px;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero__container__text {
+    opacity: 0.8;
+    max-width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 56px;
+    color: #FEFCF7;
+}
+
+.hero__btn {
+    padding: 15px 32px;
+
+    background-color: #0E8784;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+
+}
+
+
+// responsive
+
+@media screen and (max-width: 1000px) {
+    .hero__container {
+        padding: 100px 0px;
+        background-repeat: no-repeat;
+        background-image: url(../../PICTURE/tablet-background.jpg);
+        background-size: cover;
+        background-position-x: right;
+    }
+
+    .hero__container__title {
+        margin-bottom: 24px;
+        max-width: 329px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .hero__container__text {
+
+        max-width: 372px;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+
+    }
+
+}
+
+@media screen and (max-width: 711px) {
+    .hero__container {
+        padding: 100px 24px;
+        background-repeat: no-repeat;
+        background-image: url(../../PICTURE/mobile-picture/hero-background.jpg);
+        background-size: cover;
+        background-position-x: right;
+    }
+
+    .hero__container__title {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 24px;
+        max-width: 279px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .hero__container__text {
+        display: inline-block;
+        text-align: center;
+        opacity: 0.8;
+        max-width: 372px;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+
+    }
+
+    .hero__block {
+        padding-left: 24px;
+        text-align: center;
+    }
+
+}
